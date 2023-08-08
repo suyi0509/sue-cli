@@ -1,7 +1,7 @@
 /*
  * @Author: suyi
  * @Date: 2023-08-07 16:54:26
- * @LastEditTime: 2023-08-08 14:02:57
+ * @LastEditTime: 2023-08-08 14:29:20
  * @LastEditors: suyi
  * @Description: 如果代码不是为了制造bug，那将毫无意义
  * @FilePath: \sue-cli\bin\create.js
@@ -24,7 +24,6 @@ const create = async (name, options) => {
       console.log('强制删除');
       await fs.remove(targetFile); // 删除文件夹
     } else {
-      // TODO： 询问用户是否需要强行覆盖
       // 1.是否需要覆盖
       await askForce(targetFile);
     }
