@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sue": "sue --help"
+    "sue": "sue    --help"
   },
   "author": "",
   "license": "ISC",
